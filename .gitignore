@@ -1,0 +1,12 @@
+node_modules
+build
+coverage
+.vscode
+.DS_STORE
+.env
+tmp
+
+resources/views/layouts/*
+public/dist/*.*
+public/ssr/*.*
+!.gitkeep

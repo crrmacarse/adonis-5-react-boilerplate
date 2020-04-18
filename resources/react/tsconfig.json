@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2017",
+    "module": "esnext",
+    "sourceMap": true,
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["dom","esnext"],
+    "resolveJsonModule": true,
+    "strictNullChecks": false,
+    "importHelpers": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+  }
+}

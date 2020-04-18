@@ -1,0 +1,27 @@
+{
+  "exclude": [
+    "node_modules",
+    "build",
+    "./resources/react"
+  ],
+  "extends": "./tsconfig.adonis.json",
+  "compilerOptions": {
+    "outDir": "build",
+    "baseUrl": "/",
+    "rootDir": "./",
+    "sourceMap": true,
+    "paths": {
+      "App/*": [
+        "./app/*"
+      ],
+      "Contracts/*": [
+        "./contracts/*"
+      ]
+    },
+    "types": [
+      "@adonisjs/core",
+      "@adonisjs/session",
+      "@adonisjs/view"
+    ]
+  }
+}
