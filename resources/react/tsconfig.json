@@ -19,5 +19,7 @@
     "noUnusedParameters": false,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-  }
+    "declaration": true,
+  },
+  "include": ["./", "./index.d.ts"],
 }

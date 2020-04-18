@@ -28,22 +28,23 @@
   "settings": {
     "import/resolver": {
       "node": {
-        "extensions": [".ts", ".tsx"],
-        "moduleDirectory": ["node_modules", "./"]
+        "paths": ["resources/react/"],
+        "extensions": [".js", ".ts", ".tsx"]
       }
     }
   },
   "rules": {
     "no-console": [1, { "allow": ["error"] }],
     "import/no-extraneous-dependencies": [2, { "devDependencies": true }],
-    "react/jsx-filename-extension": [2, { "extensions": [".ts", ".tsx"] }],
+    "react/jsx-filename-extension": [2, { "extensions": [".js", ".ts", ".tsx"] }],
     "import/extensions": [
         2,
         "ignorePackages",
-        {
+          {
+            "js": "never",
             "ts": "never",
             "tsx": "never"
-        }
+          }
     ],
     "import/no-self-import": 0,
     "react/jsx-fragments": [2, "element"],

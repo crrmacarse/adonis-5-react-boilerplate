@@ -9,34 +9,30 @@ export default () => (
       </p>
       <ul>
         <li>
-          Backend routes is defined inside
-          {' '}
+          {'Backend routes is defined inside '}
           <code>start/routes.ts</code>
-          {' '}
-          file
+          {' file'}
         </li>
         <li>
-          Frontend routes is definined insid
-          {' '}
+          {'Frontend routes is definined in '}
           <code>resources/react/app/index.tsx</code>
-          {' '}
-          file
+          {' file'}
         </li>
         <li>
-          You can update this page by editing
-          {' '}
+          {'You can update this page by editing '}
           <code>resources/react</code>
-          {' '}
-          file
+          {' file'}
+        </li>
+        <li>
+          Click
+          <a href="/demo">{'  here '}</a>
+          to check the redux + saga implementation
         </li>
         <li>
           If you run into problems, you can reach us on
-          {' '}
-          <a href="https://discord.gg/vDcEjq6?">Discord</a>
-          {' '}
+          <a href="https://discord.gg/vDcEjq6?">{' Discord '}</a>
           or the
-          {' '}
-          <a href="https://forum.adonisjs.com/">Forum.</a>
+          <a href="https://forum.adonisjs.com/">{' Forum.'}</a>
         </li>
       </ul>
     </div>
