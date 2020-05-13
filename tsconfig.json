@@ -2,7 +2,8 @@
   "exclude": [
     "node_modules",
     "build",
-    "./resources/react"
+    "./resources/react",
+    "public"
   ],
   "extends": "./tsconfig.adonis.json",
   "compilerOptions": {

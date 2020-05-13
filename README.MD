@@ -1,6 +1,13 @@
 # Adonis 5 + React Boilerplate
 
-ongoing...
+This is only a partial part. If you're interested to a bigger version, Send me an email or a DM.
+
+![Preview](https://i.imgur.com/ZGg93sw.png)
+
+## Utilized by
+
+- XtendOps Careers (http://xmontosmwn.herokuapp.com/)
+- Waste Broker Pro (https://wxzjnduuib.herokuapp.com/)
 
 ## Development
 
@@ -17,7 +24,7 @@ To run both:
 npm run dev
 
 // terminal 2
-npm run start
+npm run hot
 ```
 
 ## Production

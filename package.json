@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "hot": "webpack-dev-server --open --hot --profile --progress --colors --config=webpack.config.babel.js --env=hot",
-    "dev": "webpack --hot --profile --progress --watch --config=webpack.config.babel.js --env=development",
+    "dev": "webpack --watch --profile --progress --config=webpack.config.babel.js --env=development",
     "build": "node ace build",
     "build:frontend": "webpack --profile --progress --config=webpack.config.babel.js --env=production",
     "start": "node ace serve --watch",

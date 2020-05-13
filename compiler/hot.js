@@ -48,14 +48,14 @@ export default {
     ...plugins,
     new HtmlWebpackPlugin({
       template: join(process.cwd(), '/compiler/templates/hot.html'),
-      filename: join(process.cwd(), '/public/dist/index.html'),
+      filename: join(process.cwd(), '/build/public/dist/index.html'),
       inject: 'body',
     }),
   ],
   optimization,
   devServer: {
     hot: true,
-    contentBase: join(process.cwd(), '/public/dist'),
+    contentBase: join(process.cwd(), '/build/public/dist'),
     writeToDisk: true,
     historyApiFallback: true,
     compress: true,

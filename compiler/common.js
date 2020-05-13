@@ -5,7 +5,7 @@ import { CleanWebpackPlugin } from 'clean-webpack-plugin'
 export const entry = join(process.cwd(), '/resources/react/index.tsx')
 
 export const output = {
-  path: join(process.cwd(), '/public/dist'),
+  path: join(process.cwd(), '/build/public/dist'),
   filename: 'main.bundle.js',
   chunkFilename: '[name].[contenthash].bundle.js',
   publicPath: '/dist/',

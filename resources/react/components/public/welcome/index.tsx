@@ -34,6 +34,8 @@ export default () => (
           or the
           <a href="https://forum.adonisjs.com/">{' Forum.'}</a>
         </li>
+        <br />
+        <small>A modified version. @crrmacarse</small>
       </ul>
     </div>
   </main>
