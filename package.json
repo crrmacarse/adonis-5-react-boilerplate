@@ -59,7 +59,7 @@
   },
   "dependencies": {
     "@adonisjs/ace": "^6.9.2",
-    "@adonisjs/core": "^5.0.0-preview.5",
+    "@adonisjs/core": "^5.0.1",
     "@adonisjs/fold": "^6.3.5",
     "@adonisjs/session": "^2.3.3",
     "@adonisjs/view": "^1.0.13",
